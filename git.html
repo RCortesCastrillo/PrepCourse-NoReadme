@@ -1,0 +1,32 @@
+ para crear nuestro repositorio local 
+ para eso utilizamos el comando (git init)
+
+ todos los comandos de git iniciaran con la palabra clave (git )
+ de esta forma podemos diferenciar cuando un comando es de git y cuando no 
+
+ <!-- comando git init -->
+ al realizar el comando git init automaticamente la carpeta en la que nos encontrabamos posicionados desde la terminal
+ se convirtio en nuestro nuevo repositorio local osea el almacen en donde vamos a guardar todos nuestros archivos de codigo 
+ e inclusive otras carpetas
+
+ podemos corroborar esto en el mensaje que nos dio la terminal
+ (inicialized empty repository)
+  
+ antes la direccion que marcaba la terminal terminaba en el nombre de nuestra carpeta pero ahora termina con (master)
+ esto nos ayudara a reconocer que esta carpeta es un nuevo repositorio local 
+
+<!-- ls -a >  -->
+ls -a (la opcion "a" nos permite ver archivos y carpetas  ocultos )
+
+
+al realizar este comando podemos ver que ahora dentro de nuestra ubicacion se encuentra una carpeta llamada (.git)
+
+esta carpeta (.git) es la que se encargara de llevar a cabo todo el seguimiento de GIT y nunca debe ser borrado
+
+al realizar un comando diferente a git init por ejemplo (git status ) en una caarpeta que no sea repositorio o no se encuentre dentro de uno 
+la terminal nos arrojara un error descriptivo indicando que no nos encontramos posicionados en un repositorio 
+
+<!-- importante  -->
+
+No debemos hacer Git init dentro de la carpeta escritorio o de archivos grandes como por ejemplo el disco duro C o el disco D
+si lo hacemos iniciariamos un seguimiento de archivos de todo lo que se encuentra en el disco duro 
